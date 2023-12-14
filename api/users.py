@@ -12,7 +12,6 @@ users_list = [
 
 def password_encryption(code: str):
     result = code * 55
-    return result
 
 
 def find_user(identifier: int) -> Union[MainUserdb, None]:
